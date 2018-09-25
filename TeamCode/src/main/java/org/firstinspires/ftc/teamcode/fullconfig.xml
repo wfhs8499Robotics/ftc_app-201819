@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <DeviceInterfaceModule name="Device Interface Module 1" serialNumber="AL00VEBH">
+        <ColorSensor name="color sensor" port="0" />
+    </DeviceInterfaceModule>
+    <MotorController name="Motor Controller 1" serialNumber="AL00VVFB">
+        <TetrixMotor name="front right motor" port="1" />
+        <TetrixMotor name="front left motor" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 0" serialNumber="AL00VH2L">
+        <TetrixMotor name="right motor" port="1" />
+        <TetrixMotor name="left motor" port="2" />
+    </MotorController>
+    <MotorController name="Motor Controller 2" serialNumber="AL00UXSE">
+        <TetrixMotor name="lift" port="2" />
+    </MotorController>
+    <ServoController name="Servo Controller 1" serialNumber="AL00XOBK">
+        <Servo name="right grabber" port="2" />
+        <Servo name="left grabber" port="3" />
+        <Servo name="jewel pusher" port="4" />
+    </ServoController>
+</Robot>
